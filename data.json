@@ -1,0 +1,19 @@
+{
+    "projects":{
+       "id":0,
+       "project_name":"Dummy project name 1",
+       "description":"Dummy project 1 description",
+       "technoligies":[
+          "javascript",
+          "html",
+          "css"
+       ],
+       "live_link":"www.dummy.com",
+       "github_link":"repolink",
+       "image_urls":[
+          "picurl 1",
+          "picurl 2",
+          "picurl 3"
+       ]
+    }
+ }
