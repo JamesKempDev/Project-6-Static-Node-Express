@@ -1,7 +1,7 @@
 // Set up requirements
 const express = require('express');
 const app = express();
-const data = require('./data.json');
+//const data = require('./data.json');
 const routes = require('./routes.js');
 
 // Set the view engine to pug
@@ -9,9 +9,12 @@ app.set('view engine', 'pug');
 
 // Set up the routes handler
 app.use('/', routes);
-
+// Static file route set
 app.use('/static', express.static('public'));
+app.use('/images', express.static('images'));
 
+// Prevent 404 favicon errors showing in the console.
+app.get('/favicon.ico', (req, res) => res.status(204).end());
 
 // 404 error handler
 app.use((req, res, next) => {
@@ -30,7 +33,6 @@ app.use((err, req, res, next) => {
     console.log(`${err.status} - ${err.message}`);
     next();
   })
-
 
 // Open port 3000
 app.listen(3000, () => {

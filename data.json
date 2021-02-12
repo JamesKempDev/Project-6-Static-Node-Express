@@ -1,36 +1,81 @@
 {
    "projects": [{
       "id": 0,
-      "project_name": "Dummy project name 1",
-      "description": "Dummy project 1 description",
-      "technoligies": [
+      "project_name": "Random Quote Generator",
+      "description": "A simple random quote generator.",
+      "technologies": [
          "javascript",
          "html",
          "css"
       ],
-      "live_link": "www.dummy.com",
-      "github_link": "repolink",
+      "live_link": "jameskempdev.github.io/Random-Quote-Generator/",
+      "github_link": "github.com/JamesKempDev/Random-Quote-Generator",
       "image_urls": [
-         "picurl 1",
-         "picurl 2",
-         "picurl 3"
+         "/images/p0_1.png"
       ]
    },
-{
-   "id": 1,
-   "project_name": "Dummy project name 2",
-   "description": "Dummy project 2 description",
-   "technoligies": [
-      "javascript",
-      "html",
-      "css"
-   ],
-   "live_link": "www.dummy.com",
-   "github_link": "repolink",
-   "image_urls": [
-      "picurl 1",
-      "picurl 2",
-      "picurl 3"
-   ]
-}]
+   {
+      "id": 1,
+      "project_name": "Data pagination and filtering",
+      "description": "",
+      "technologies": [
+         "javascript",
+         "html",
+         "css"
+      ],
+      "live_link": "jameskempdev.github.io/Data-Pagination-and-Filtering/",
+      "github_link": "github.com/JamesKempDev/Data-Pagination-and-Filtering",
+      "image_urls": [
+         "/images/p1_1.png"
+      ]
+   },
+   {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "A simple dummy form that adjust dynamically to the users options",
+      "technologies": [
+         "javascript",
+         "html",
+         "css"
+      ],
+      "live_link": "jameskempdev.github.io/Unit-3-interactive-form/",
+      "github_link": "github.com/JamesKempDev/Unit-3-interactive-form",
+      "image_urls": [
+         "/images/p2_1.png",
+         "/images/p2_2.png"
+      ]
+   },
+   {
+      "id": 3,
+      "project_name": "Phrase Hunter",
+      "description": "A javascript game, similar to hang man",
+      "technologies": [
+         "javascript",
+         "html",
+         "css"
+      ],
+      "live_link": "jameskempdev.github.io/Unit-4-phrase-hunter/",
+      "github_link": "github.com/JamesKempDev/Unit-4---phrase-hunter",
+      "image_urls": [
+         "/images/p3_1.png",
+         "/images/p3_2.png",
+         "/images/p3_3.png"
+      ]
+   },
+   {
+      "id": 3,
+      "project_name": "Public API",
+      "description": "This is an example of pulling data from an API to display with added popup modal functionality.",
+      "technologies": [
+         "javascript",
+         "html",
+         "css"
+      ],
+      "live_link": "jameskempdev.github.io/project-5-public-api/",
+      "github_link": "github.com/JamesKempDev/project-5-public-api",
+      "image_urls": [
+         "/images/p4_1.png",
+         "/images/p4_2.png"
+      ]
+   }]
 }
